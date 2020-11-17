@@ -1,3 +1,9 @@
+
+## About Project
+This project lists all Pokemon retrieved using an API from pokeapi.co, and is a personal project to show off my ability to consume APIs.
+
+-----------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

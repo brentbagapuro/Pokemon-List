@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
+$primary-color: #df807e;
+$secondary-color: #a2d7d5;
+$accent-color: #f5e97e;
+$text-color: #262626;
+
+body {
+  background: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    url("./img/poke-bg.jpg");
+
+  font-family: "Titillium Web", sans-serif;
+  color: $text-color;
+}

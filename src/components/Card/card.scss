@@ -1,0 +1,132 @@
+.Card-container {
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 1px 10px 15px 1px #00000055;
+  padding: 1em;
+  width: 15em;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5em;
+  background-image: linear-gradient(to bottom right, #f5e97e, #df807e);
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: transform 0.25s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &__img {
+    height: 8em;
+  }
+
+  &__types {
+    .Card__type {
+      display: inline-block;
+      color: white;
+      width: 6rem;
+      margin-right: 3px;
+      text-align: center;
+      border-radius: 5px;
+    }
+  }
+}
+
+.grass {
+  border: 1px solid #9bcc50;
+  background-color: #9bcc50;
+}
+
+.poison {
+  border: 1px solid #b97fc9;
+  background-color: #b97fc9;
+}
+
+.flying {
+  border: 1px solid #bdb9b8;
+  background: linear-gradient(180deg, #3dc7ef, #bdb9b8);
+}
+
+.fire {
+  border: 1px solid #fd7d24;
+  background-color: #fd7d24;
+}
+
+.water {
+  border: 1px solid #4592c4;
+  background-color: #4592c4;
+}
+
+.bug {
+  border: 1px solid #729f3f;
+  background-color: #729f3f;
+}
+
+.normal {
+  border: 1px solid #a4acaf;
+  background-color: #a4acaf;
+}
+
+.electric {
+  border: 1px solid #eed535;
+  background-color: #eed535;
+}
+
+.ground {
+  border: 1px solid #eed535;
+  background: linear-gradient(180deg, #f7de3f, #ab9842);
+}
+
+.dragon {
+  border: 1px solid #53a4cf;
+  background: linear-gradient(180deg, #53a4cf, #f16e57);
+}
+
+.fairy {
+  border: 1px solid #fdb9e9;
+  background-color: #fdb9e9;
+}
+
+.fighting {
+  border: 1px solid #d56723;
+  background-color: #d56723;
+}
+
+.psychic {
+  border: 1px solid #f366b9;
+  background-color: #f366b9;
+}
+
+.steel {
+  border: 1px solid #9eb7b8;
+  background-color: #9eb7b8;
+}
+
+.rock {
+  border: 1px solid #a38c21;
+  background-color: #a38c21;
+}
+
+.ice {
+  border: 1px solid #51c4e7;
+  background-color: #51c4e7;
+}
+
+.ghost {
+  border: 1px solid #7b62a3;
+  background-color: #7b62a3;
+}
+
+.dark {
+  border: 1px solid #707070;
+  background-color: #707070;
+}

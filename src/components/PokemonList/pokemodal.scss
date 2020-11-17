@@ -1,0 +1,60 @@
+.ReactModal__Content {
+  background-image: linear-gradient(
+    to bottom right,
+    #f5e97e,
+    #df807e
+  ) !important;
+  border-radius: 10px !important;
+
+  .PokeModal {
+    padding: 5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
+    &__pokemon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5em;
+
+      &__img {
+        height: 20em;
+      }
+
+      &__poke-name {
+        text-transform: capitalize;
+      }
+    }
+
+    &__info {
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &__bio {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+        &__categories {
+          margin-bottom: 2em;
+        }
+      }
+
+      &__stats {
+        display: flex;
+        flex-direction: column;
+
+        &__stat {
+          display: flex;
+          margin-bottom: 0.1em;
+
+          h4 {
+            margin-right: 0.5em;
+          }
+        }
+      }
+    }
+  }
+}
