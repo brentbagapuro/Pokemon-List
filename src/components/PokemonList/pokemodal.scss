@@ -19,7 +19,7 @@
       margin-bottom: 5em;
 
       &__img {
-        height: 20em;
+        height: 10em;
       }
 
       &__poke-name {
@@ -55,6 +55,15 @@
           }
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ReactModal__Content {
+    .PokeModal {
+      padding: 1em;
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     }
   }
 }
